@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-page {
+  height: 100vh;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+.login-card {
+  width: 350px;
+  background: #0b1220;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid #1e293b;
+}
+
+.form-control {
+  background-color: #020617;
+  border: 1px solid #334155;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #94a3b8;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  border: none;
+}
+.dashboard {
+  background-color: #020617;
+  min-height: 100vh;
+}
+
+.dark-card {
+  background: #0b1220;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  color: white;
+}
+
+.list-group-item {
+  border: none;
+}
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+.card {
+  background: #0b1220;
+  border-radius: 15px;
+  border: 1px solid #1e293b;
+  color: white;
+}
+.form-control {
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+}.btn-primary {
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  border: none;
+}
